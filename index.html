@@ -1,0 +1,81 @@
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Polaropia - Home</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header>
+  <h1>🎨 Polaropia - Mini Art Gallery</h1>
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="polaroids.html">Polaroids</a>
+    <a href="order.html">Order</a>
+    <a href="help.html">Help</a>
+    <a href="services.html">Services</a>
+  </nav>
+</header>
+
+<!-- Hero Banner -->
+<section class="hero-section">
+  <img src="images/banner.jpg" alt="Artistic Banner">
+ 
+</section>
+
+<!-- Search Section -->
+<section class="search-section">
+  <h2>Search Art by Interest</h2>
+  <input type="text" id="searchInput" placeholder="Type 'abstract', 'modern'...">
+  <button onclick="searchProduct()">Search</button>
+  <p id="searchResult"></p>
+</section>
+
+<!-- Featured Artworks -->
+<section class="featured-gallery">
+  <h2>✨ Featured Polaroids</h2>
+  <div class="product-gallery">
+    <div class="product-card">
+      <img src="images/featured1.jpg" alt="Polaroid 1">
+      <h3>Dreamy Sunset</h3>
+      
+      
+    </div>
+    <div class="product-card">
+      <img src="images/featured2.jpg" alt="Polaroid 2">
+      <h3>Floral Abstract</h3>
+      </div>
+    <div class="product-card">
+      <img src="images/featured3.jpg" alt="Polaroid 3">
+      <h3>Retro Vibes</h3>
+      </div>
+  </div>
+</section>
+
+<!-- Contact & About Section -->
+<section class="contact-section">
+  <h2>📞 Get in Touch</h2>
+  <p>Have a question about our products or services? Reach out now — we'd love to hear from you!</p>
+  <div class="contact-info">
+    <p><strong>Email:</strong> contact@polaropia.com</p>
+    <p><strong>Phone:</strong> +92 3135109243</p>
+    <p><strong>Location:</strong> Rawalpindi, Pakistan</p>
+  </div>
+
+  <form class="contact-form">
+    <input type="text" placeholder="Your Name" required><br>
+    <input type="email" placeholder="Your Email" required><br>
+    <textarea rows="4" placeholder="Your Message" required></textarea><br>
+    <button type="submit">Send Message</button>
+  </form>
+</section>
+
+<footer>
+  <p>&copy; 2025 Polaropia | All rights reserved</p>
+</footer>
+
+<script src="js/script.js"></script>
+</body>
+</html>

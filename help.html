@@ -1,0 +1,46 @@
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Help - Polaropia</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header>
+  <h1>Help & Support</h1>
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="polaroids.html">Polaroids</a>
+    <a href="order.html">Order</a>
+    <a href="help.html">Help</a>
+    <a href="services.html">Services</a>
+  </nav>
+</header>
+
+<section class="help-section">
+  <h2>Need Assistance?</h2>
+  <p>For any issues, email us at <strong>support@polaropia.com</strong> or use the help options below.</p>
+
+  <label for="helpSelect">Select your issue:</label><br>
+  <select id="helpSelect">
+    <option value="">-- Choose an option --</option>
+    <option value="order">Order not received</option>
+    <option value="payment">Payment problem</option>
+    <option value="product">Issue with product quality</option>
+    <option value="others">Other inquiries</option>
+  </select><br><br>
+
+  <button onclick="getHelp()">Get Help</button>
+
+  <div id="helpResponse" class="help-response"></div>
+</section>
+
+<footer>
+  <p>&copy; 2025 Polaropia</p>
+</footer>
+
+<script src="js/script.js"></script>
+</body>
+</html>

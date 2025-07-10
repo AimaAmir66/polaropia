@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Order - Polaropia</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header>
+  <h1>Order Your Art</h1>
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="polaroids.html">Polaroids</a>
+    <a href="order.html">Order</a>
+    <a href="help.html">Help</a>
+    <a href="services.html">Services</a>
+  </nav>
+</header>
+
+<section class="order-section">
+  <h2>Your Cart</h2>
+  <div id="cartItems"></div>
+  <h3 id="totalAmount"></h3>
+
+  <h2>Delivery Details</h2>
+  <input type="email" id="email" placeholder="Enter your Email" required><br><br>
+  <input type="text" id="phone" placeholder="Enter your Phone Number" required><br><br>
+  <textarea id="address" placeholder="Enter your Delivery Address" rows="4" required></textarea><br><br>
+
+  <button onclick="confirmOrder()">Confirm Order</button>
+  <p id="orderMessage"></p>
+</section>
+
+<footer>
+  <p>&copy; 2025 Polaropia</p>
+</footer>
+
+<script src="js/script.js"></script>
+</body>
+</html>

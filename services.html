@@ -1,0 +1,55 @@
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Services - Polaropia</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header>
+  <h1>Our Services</h1>
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="polaroids.html">Polaroids</a>
+    <a href="order.html">Order</a>
+    <a href="help.html">Help</a>
+    <a href="services.html">Services</a>
+  </nav>
+</header>
+
+<section class="services-section">
+  <h2>What We Offer</h2>
+  <ul>
+    <li>✨ Personalized art prints</li>
+    <li>📷 Custom polaroids with your photo or artwork</li>
+    <li>🎁 Gift packaging and handwritten message cards</li>
+    <li>🚚 Home delivery services nationwide</li>
+  </ul>
+</section>
+
+<section class="feedback-section">
+  <h2>We value your feedback!</h2>
+  <form id="feedbackForm">
+    <label for="feedback">Your Message:</label><br>
+    <textarea id="feedback" rows="5" cols="30" placeholder="Write your thoughts..."></textarea><br><br>
+
+    <label>Your Rating:</label><br>
+    <input type="radio" name="rating" value="Excellent"> Excellent  
+    <input type="radio" name="rating" value="Good"> Good  
+    <input type="radio" name="rating" value="Average"> Average  
+    <input type="radio" name="rating" value="Poor"> Poor  <br><br>
+
+    <button type="button" onclick="submitFeedback()">Submit Feedback</button>
+    <p id="feedbackMessage"></p>
+  </form>
+</section>
+
+<footer>
+  <p>&copy; 2025 Polaropia</p>
+</footer>
+
+<script src="js/script.js"></script>
+</body>
+</html>
