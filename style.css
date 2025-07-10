@@ -16,7 +16,7 @@ body {
   flex-direction: column;
   min-height: 100vh;
   body {
-  background-image: url('../images/bg-image.jpg1');
+  background-image: url('../bg-image.jpg1');
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
